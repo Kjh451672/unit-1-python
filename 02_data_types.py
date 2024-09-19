@@ -53,7 +53,7 @@ Write a program that takes a person's name and age as input and prints it
 print("Please input your name")
 user_name = input()
 print("Now enter your age")
-user_age = input()
+user_age = int(input())
 #Takes in name and age and prints it out
 text = f"Your name is {user_name} and you are {user_age} years old."
 print(text)
