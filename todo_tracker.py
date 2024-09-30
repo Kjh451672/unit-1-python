@@ -45,9 +45,7 @@ while True:
             file.writelines(to_do_list)
         break
 
-#Corrects the user if they typed in an incorrect option
-    elif option != "exit" or option != "display" or option != "edit" or option != "clear all" or option != "remove" or option != "add":
-        print("Sorry, that doesnt match any of the options. Please try again.")
+
             
 
     
