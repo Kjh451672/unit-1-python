@@ -12,7 +12,7 @@ while True:
     if option == "add":
         print("Please type in your next todo.")
         next_todo = input()
-        to_do_list.append(next_todo)
+        to_do_list.append(next_todo + "\n")
 
 #Removes an item from the list
     if option == "remove":
