@@ -53,7 +53,9 @@ else:
 
 attempts = 1
 correct_password = "secret"
-#Added a break statement if password is correctly guessed, moved attempts variable to te end of the if statement, set attempts = 1, changed condition to if attempts ==3, and chnged if-statement to have password = correct password
+#Added a break statement if password is correctly guessed, moved attempts variable to te end of the if statement, 
+#set attempts = 1, changed condition to if attempts ==3, 
+#and chnged if-statement to have password = correct password
 while True:
     password = input("Enter your password: ")
 
