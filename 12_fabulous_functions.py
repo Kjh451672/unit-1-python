@@ -1,4 +1,3 @@
-import math 
 """
 Task 1: Greeting
 Write a function that takes a name as a 
@@ -16,10 +15,11 @@ Write a function that takes an integer as an argument and returns its square.
 """
 
 #Takes square root of the argument
-def square_root(num1):
-    return math.sqrt(num1)
+def square_num(num1):
+    return num1 * num1 
+
     
-print(square_root(9))
+print(square_num(9))
 
 """
 Task 3: Even or Odd
